@@ -11,9 +11,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.mapbox.api.directions.v5.models.DirectionsRoute;
 import com.mapbox.libnavigation.ui.R;
 import com.mapbox.mapboxsdk.camera.CameraPosition;
-import com.mapbox.navigation.base.internal.NavigationConstants;
+import com.mapbox.navigation.ui.legacy.NavigationConstants;
 import com.mapbox.navigation.base.options.NavigationOptions;
-import com.mapbox.navigation.route.hybrid.MapboxHybridRouter;
 import com.mapbox.navigation.ui.listeners.NavigationListener;
 
 /**

@@ -40,9 +40,9 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 import timber.log.Timber;
 
-import static com.mapbox.navigation.base.internal.NavigationConstants.NAVIGATION_MAX_CAMERA_ADJUSTMENT_ANIMATION_DURATION;
-import static com.mapbox.navigation.base.internal.NavigationConstants.NAVIGATION_MIN_CAMERA_TILT_ADJUSTMENT_ANIMATION_DURATION;
-import static com.mapbox.navigation.base.internal.NavigationConstants.NAVIGATION_MIN_CAMERA_ZOOM_ADJUSTMENT_ANIMATION_DURATION;
+import static com.mapbox.navigation.ui.legacy.NavigationConstants.NAVIGATION_MAX_CAMERA_ADJUSTMENT_ANIMATION_DURATION;
+import static com.mapbox.navigation.ui.legacy.NavigationConstants.NAVIGATION_MIN_CAMERA_TILT_ADJUSTMENT_ANIMATION_DURATION;
+import static com.mapbox.navigation.ui.legacy.NavigationConstants.NAVIGATION_MIN_CAMERA_ZOOM_ADJUSTMENT_ANIMATION_DURATION;
 
 /**
  * Updates the map camera while navigating.

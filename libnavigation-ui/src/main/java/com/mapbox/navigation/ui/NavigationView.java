@@ -671,7 +671,7 @@ public class NavigationView extends CoordinatorLayout implements LifecycleOwner,
 
   private int establishRoundingIncrement(NavigationViewOptions navigationViewOptions) {
     NavigationOptions navigationOptions = navigationViewOptions.navigationOptions();
-    return navigationOptions.roundingIncrement();
+    return navigationOptions.getRoundingIncrement();
   }
 
   private String establishLanguage(NavigationViewOptions options) {
@@ -687,7 +687,7 @@ public class NavigationView extends CoordinatorLayout implements LifecycleOwner,
 
   private void establishTimeFormat(NavigationViewOptions options) {
     @TimeFormatType
-    int timeFormatType = options.navigationOptions().timeFormatType();
+    int timeFormatType = options.navigationOptions().getTimeFormatType();
     summaryBottomSheet.setTimeFormat(timeFormatType);
   }
 

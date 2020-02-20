@@ -39,7 +39,7 @@ import com.mapbox.navigation.ui.route.OnRouteSelectionChangeListener;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-import static com.mapbox.navigation.base.internal.NavigationConstants.NAVIGATION_MINIMUM_MAP_ZOOM;
+import static com.mapbox.navigation.ui.legacy.NavigationConstants.NAVIGATION_MINIMUM_MAP_ZOOM;
 import static com.mapbox.navigation.ui.map.NavigationSymbolManager.MAPBOX_NAVIGATION_MARKER_NAME;
 
 /**

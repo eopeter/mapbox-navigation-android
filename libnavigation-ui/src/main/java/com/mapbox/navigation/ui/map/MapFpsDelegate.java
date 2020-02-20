@@ -3,7 +3,7 @@ package com.mapbox.navigation.ui.map;
 import android.content.Context;
 
 import com.mapbox.mapboxsdk.maps.MapView;
-import com.mapbox.navigation.base.internal.NavigationConstants;
+import com.mapbox.navigation.ui.legacy.NavigationConstants;
 import com.mapbox.navigation.base.trip.model.RouteLegProgress;
 import com.mapbox.navigation.base.trip.model.RouteProgress;
 import com.mapbox.navigation.core.MapboxNavigation;

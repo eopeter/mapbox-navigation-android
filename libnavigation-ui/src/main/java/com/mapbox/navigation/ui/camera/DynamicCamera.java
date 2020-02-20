@@ -10,7 +10,7 @@ import com.mapbox.mapboxsdk.camera.CameraPosition;
 import com.mapbox.mapboxsdk.geometry.LatLng;
 import com.mapbox.mapboxsdk.geometry.LatLngBounds;
 import com.mapbox.mapboxsdk.maps.MapboxMap;
-import com.mapbox.navigation.base.internal.NavigationConstants;
+import com.mapbox.navigation.ui.legacy.NavigationConstants;
 import com.mapbox.navigation.base.trip.model.RouteProgress;
 
 import java.util.ArrayList;

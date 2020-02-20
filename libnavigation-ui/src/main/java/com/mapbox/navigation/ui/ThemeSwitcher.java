@@ -16,7 +16,7 @@ import androidx.core.content.ContextCompat;
 
 import com.mapbox.libnavigation.ui.R;
 import com.mapbox.mapboxsdk.utils.BitmapUtils;
-import com.mapbox.navigation.base.internal.NavigationConstants;
+import com.mapbox.navigation.ui.legacy.NavigationConstants;
 
 /**
  * This class is used to switch theme colors in {@link NavigationView}.

@@ -317,12 +317,12 @@ public class NavigationViewModel extends AndroidViewModel {
   }
 
   private void initializeTimeFormat(NavigationOptions options) {
-    timeFormatType = options.timeFormatType();
+    timeFormatType = options.getTimeFormatType();
   }
 
   private int initializeRoundingIncrement(NavigationViewOptions options) {
     NavigationOptions navigationOptions = options.navigationOptions();
-    return navigationOptions.roundingIncrement();
+    return navigationOptions.getRoundingIncrement();
   }
 
   private void initializeDistanceFormatter(NavigationViewOptions options) {

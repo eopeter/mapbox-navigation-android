@@ -40,7 +40,7 @@ import com.mapbox.api.directions.v5.models.LegStep;
 import com.mapbox.libnavigation.ui.R;
 import com.mapbox.navigation.base.extensions.LocaleEx;
 import com.mapbox.navigation.base.formatter.DistanceFormatter;
-import com.mapbox.navigation.base.internal.NavigationConstants;
+import com.mapbox.navigation.ui.legacy.NavigationConstants;
 import com.mapbox.navigation.base.trip.model.RouteProgress;
 import com.mapbox.navigation.core.MapboxDistanceFormatter;
 import com.mapbox.navigation.core.MapboxNavigation;
