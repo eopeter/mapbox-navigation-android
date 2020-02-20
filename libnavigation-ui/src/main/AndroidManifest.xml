@@ -1,0 +1,10 @@
+<manifest
+    package="com.mapbox.libnavigation.ui"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <application>
+    <activity android:name="com.mapbox.navigation.ui.MapboxNavigationActivity"/>
+  </application>
+
+</manifest>
